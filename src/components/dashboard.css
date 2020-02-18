@@ -1,0 +1,191 @@
+.dashboard{
+    /* background-color: aqua; */
+    background-color: rgb(231, 235, 253);
+
+    /* position: absolute; */
+    width: 85%;
+    /* display: inline; */
+    /* margin-left: 18%; */
+    /* position: fixed; */
+    /* height: 100vh; */
+    /* overflow: hidden; */
+
+}
+.dd{
+    width: 85%; 
+}
+.name{
+    height: 60px;
+    margin-left: 5%;
+    /* width: 100% */
+}
+.flow{
+    height: 60px;
+    margin-left: 5%;
+
+}
+.flex{
+    display: flex;
+    margin-left: 5%;
+    /* justify-content: space-around; */
+
+    /* flex-direction: row; */
+
+}
+.panel1{
+    /* background-color:yellow;  */
+    /* margin-left: 10%; */
+    height: 700px;
+    /* padding: 15% */
+    width: 70%
+}
+.panel2{
+    
+    /* background-color:green;  */
+    /* margin-left: 5%; */
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    /* margin-top: 2%; */
+    /* padding: 15% */
+    /* margin-left: 63% */
+    width: 30%;   
+}
+.profile{
+    /* background-color:white;  */
+    display: flex;
+    flex-direction: row;
+    height: 325px;
+    width: 100%;
+}
+.appoinments{
+    background-color:white; 
+    height: 325px;
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 5%;
+
+}
+.notes{
+    background-color:white; 
+    height: 325px;
+    width: 90%; 
+    /* margin: 10%; */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.files{
+background-color:white; 
+    height: 325px; 
+    width: 90%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p1{
+    /* order:1; */
+    flex:1;
+    /* width: 50%; */
+    /* background-color: aqua; */
+}
+.p2{
+    /* order:2; */
+    flex:2;
+    display: flex;
+    /* margin-right: 5%; */
+    /* flex-flow: row wrap; */
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content:space-around ;
+    
+    /* display: inline block; */
+    /* background-color: blue; */
+
+}
+.p2 input{
+    /* text-decoration: none; */
+    outline: none;
+    border: none;
+}
+.p2 label{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* padding: 50px; */
+    width: 200px;
+    margin: 2%;
+    text-align: center;
+}
+.s1{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    height: 33%;
+}
+.s2{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    background-color:white;
+    height: 33%;
+}
+.element{
+    /* text-align: left; */
+    width: 200px;
+    /* padding: 10px; */
+    margin-top: 5%;
+    /* margin-left: 5px; */
+}
+.pro{
+    background-color:white;
+    height: 100%;
+    width: 99%;
+}
+img{
+    margin-left: 35%;
+    margin-top: 10%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.doc{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+    /* justify-content: ; */
+    /* display: inline; */
+    /* padding: 50%; */
+}
+/* .doc p{
+    font-size: 13px;
+    border: solid;
+    border-width: 0.25px;
+    border-color: lightgrey;
+} */
+.f{
+    /* padding: 1px; */
+    border: solid;
+    border-width: 0.1px;
+    border-color: rgb(236, 234, 234);
+    margin: 1px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.f a{
+    margin-left: 10%;
+    margin-top: 7%;
+    text-decoration: none;
+    color: rgb(77, 75, 75);
+    font-size: 13px;
+}
+.f a:hover {
+    /* width: 15%; */
+    /* background-color: rgb(235, 243, 167); */
+    color: blue;
+  }
+.doc h6{
+    margin-right: 10px; 
+    color: gray
+}
